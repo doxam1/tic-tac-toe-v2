@@ -69,10 +69,37 @@ body {
                     &:hover {
                         transform: scale(1.1);
                     }
-
-
-
                 }
+                & .newGameDialog {
+                    
+                    & fieldset {
+                    display: flex;
+                    flex-direction: column;
+                    gap:1rem;
+
+                    & .gameTypeChoice {
+                        display: flex;
+                        justify-content: space-between;
+                       
+                    }
+
+                    & .startGame {
+                        width: 100px;
+                        height: 40px;
+                        border-radius: 8px;
+                        border: none;
+                        outline: none;
+                        background-color: rgb(255, 255, 255);
+                        box-shadow: 0px 0px 10px white;
+                        font-weight: 800;
+                        cursor: pointer;
+                        border: 1px solid black;
+                        margin: auto;
+    
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }}}
             }
 
             & .msgs {

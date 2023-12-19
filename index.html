@@ -28,6 +28,25 @@
             <div class="controlsAndMsgs">
                 <div class="btns">
                     <button class="newGame"> New Game </button>
+                    <dialog class="newGameDialog">
+                        <form>
+                            <fieldset>
+                                <label for="playerXname"> Player X Name:
+                                    <input type="text" id="playerXname" placeholder="Enter name" name='playerXname' required />
+                                </label>
+                                <label for="playerOname"> Player O Name:
+                                    <input type="text" id="playerOname" placeholder="Enter name" name="playerOname" required />
+                                </label>
+                                <div class='gameTypeChoice'>
+                                    <label for="human"> Human<input type="radio" name="choice" id="human" required></label>
+                                    <label for="easyAi"> Easy Ai <input type="radio" name="choice" id="easyAi"></label>
+                                    <label for="hardAi"> Hard Ai <input type="radio" name="choice" id="hardAi"></label>
+                                </div>
+                                <button class="startGame"> Start Game </button>
+
+                            </fieldset>
+                        </form>
+                    </dialog>
                     <button class="resetBoard"> Clean Board </button>
                 </div>
                 <div class="msgs">
